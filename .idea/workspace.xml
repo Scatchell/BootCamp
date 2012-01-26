@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f96d2e-d6bf-4f58-ab71-d7812c217f2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantity/quantity_test_new.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantity/unit.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quantity/length.rb" afterPath="$PROJECT_DIR$/quantity/length.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quantity/quantity.rb" afterPath="$PROJECT_DIR$/quantity/quantity.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quantity/quantity_test_new.rb" afterPath="$PROJECT_DIR$/quantity/quantity_test_new.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quantity/volume.rb" afterPath="$PROJECT_DIR$/quantity/volume.rb" />
     </list>
     <ignored path="BootCamp.iws" />
@@ -29,46 +30,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="chance_not_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chance_not_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="1338" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chance_not.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chance_not.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="28" selection-start="0" selection-end="695" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="quantity.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quantity/quantity.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="2" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="length.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="unit.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quantity/unit.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="2" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="length.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quantity/length.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="24" selection-start="354" selection-end="354" vertical-scroll-proportion="0.74626863">
+            <state line="9" column="30" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quantity_test_new.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="quantity_test_new.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quantity/quantity_test_new.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="42" selection-start="224" selection-end="226" vertical-scroll-proportion="0.0">
+            <state line="32" column="2" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.7294833">
               <folding />
             </state>
           </provider>
@@ -77,16 +69,7 @@
       <file leaf-file-name="volume.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quantity/volume.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="15" selection-start="353" selection-end="385" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quantity_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quantity/quantity_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="0" selection-end="1293" vertical-scroll-proportion="0.0">
+            <state line="8" column="2" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,10 +94,11 @@
         <option value="$PROJECT_DIR$/quantity/quantity_test.rb" />
         <option value="$PROJECT_DIR$/quantity/type.rb" />
         <option value="$PROJECT_DIR$/quantity/length_test.rb" />
-        <option value="$PROJECT_DIR$/quantity/quantity_test_new.rb" />
-        <option value="$PROJECT_DIR$/quantity/quantity.rb" />
-        <option value="$PROJECT_DIR$/quantity/volume.rb" />
         <option value="$PROJECT_DIR$/quantity/length.rb" />
+        <option value="$PROJECT_DIR$/quantity/quantity.rb" />
+        <option value="$PROJECT_DIR$/quantity/unit.rb" />
+        <option value="$PROJECT_DIR$/quantity/volume.rb" />
+        <option value="$PROJECT_DIR$/quantity/quantity_test_new.rb" />
       </list>
     </option>
   </component>
@@ -190,7 +174,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda.length_test">
+  <component name="RunManager" selected="Ruby.quantity_test_new">
     <configuration default="false" name="ChanceTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="BootCamp" />
@@ -278,6 +262,26 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="quantity_test_new" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="BootCamp" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/quantity" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/quantity/quantity_test_new.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -304,6 +308,24 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
@@ -364,10 +386,11 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda.ChanceTest" />
       <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda.quantity_test" />
       <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda.length_test" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.quantity_test_new" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -398,17 +421,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-5" width="1382" height="781" extended-state="6" />
+    <frame x="-8" y="-5" width="1296" height="1037" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.03255814" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1761194" sideWeight="0.6713178" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18819776" sideWeight="0.7647059" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32868218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23529412" sideWeight="0.9358209" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -471,47 +494,58 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chance_not_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1338" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chance_not.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="0" selection-end="695" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quantity/quantity_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="0" selection-end="1293" vertical-scroll-proportion="0.0">
+        <state line="20" column="76" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quantity/quantity_test_new.rb">
+    <entry file="file://$PROJECT_DIR$/chance_not_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="42" selection-start="224" selection-end="226" vertical-scroll-proportion="0.0">
+        <state line="8" column="29" selection-start="239" selection-end="239" vertical-scroll-proportion="0.18237083">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chance_not.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="0" selection-end="695" vertical-scroll-proportion="0.20212767">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quantity/quantity.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="2" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quantity/volume.rb">
+    <entry file="file://$PROJECT_DIR$/quantity/unit.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="15" selection-start="353" selection-end="385" vertical-scroll-proportion="0.0">
+        <state line="1" column="2" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quantity/length.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="24" selection-start="354" selection-end="354" vertical-scroll-proportion="0.74626863">
+        <state line="9" column="30" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quantity/volume.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quantity/quantity_test_new.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="2" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.7294833">
           <folding />
         </state>
       </provider>

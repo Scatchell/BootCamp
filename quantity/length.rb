@@ -5,12 +5,16 @@ class Length
     @base_conversion_factor = base_unit
   end
 
-  def self.in
+  def get_base_unit_object
+    Length.inch
+  end
+
+  def self.inch
     Length.new(1)
   end
 
   def self.ft
-    Length.new(Length.in.base_conversion_factor * 12)
+    Length.new(Length.inch.base_conversion_factor * 12)
   end
 
   def self.yd
