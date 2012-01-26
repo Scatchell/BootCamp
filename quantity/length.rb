@@ -24,4 +24,8 @@ class Length
   def self.mi
     Length.new(Length.yd.base_conversion_factor * 1760)
   end
+
+  def calc_amount_of_base_units(amount)
+    amount * @base_conversion_factor
+  end
 end

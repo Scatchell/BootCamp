@@ -24,4 +24,8 @@ class Volume
   def self.cup
     Volume.new(Volume.oz.base_conversion_factor * 8)
   end
+
+  def calc_amount_of_base_units(amount)
+    amount * @base_conversion_factor
+  end
 end
