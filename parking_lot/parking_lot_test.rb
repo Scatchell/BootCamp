@@ -24,7 +24,8 @@ class ParkingLotTest < Test::Unit::TestCase
     assert_raise RuntimeError do
       assert_not_equal vehicle, lot.remove(vehicle)
     end
-
   end
+
+
 end
 

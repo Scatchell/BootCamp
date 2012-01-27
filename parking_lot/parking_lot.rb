@@ -1,4 +1,5 @@
 require 'vehicle'
+require 'parking_lot_observer'
 class Lot
 
   def initialize(total_spaces = 1)
@@ -9,7 +10,8 @@ class Lot
   def park(vehicle)
     if can_park
       @lot[vehicle] = vehicle
-       return vehicle
+      notify
+      return vehicle
     else
       raise RuntimeError, "Parking lot full, cannot add new vehicle"
     end
@@ -19,13 +21,16 @@ class Lot
     if @lot.delete(vehicle) == nil
       raise RuntimeError, "Car not found, cannot be removed"
     else
+      notify
       return vehicle
     end
   end
 
-  private
+
+  include ParkingLotObserver
+
   def can_park
-    @lot.size + 1 < @total_spaces
+    @lot.size < @total_spaces
   end
 
 

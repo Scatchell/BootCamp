@@ -6,7 +6,7 @@ require 'mocha'
 
 class AttendantTest < Test::Unit::TestCase
 
- # def test_mocking_a_class_method
+  # def test_mocking_a_class_method
   #   product = Product.new
   #   Product.expects(:find).with(1).returns(product)
   #   assert_equal product, Product.find(1)
@@ -28,5 +28,28 @@ class AttendantTest < Test::Unit::TestCase
     lot.expects(:remove).with(vehicle).returns(vehicle)
 
     assert_equal vehicle, attendant.get(vehicle)
+  end
+
+  def test_if_attendant_can_park
+    lot = Lot.new(10)
+    vehicle2 = Vehicle.new
+
+    attendant = Attendant.new(lot)
+
+    attendant.park(Vehicle.new)
+    attendant.park(Vehicle.new)
+    attendant.park(Vehicle.new)
+    attendant.park(Vehicle.new)
+    attendant.park(Vehicle.new)
+    attendant.park(Vehicle.new)
+    attendant.park(Vehicle.new)
+    attendant.park(Vehicle.new)
+
+
+    assert_raise RuntimeError do
+      assert_equal vehicle2, attendant.park(vehicle2)
+    end
+
+
   end
 end
