@@ -1,28 +1,30 @@
 $LOAD_PATH << File.dirname(__FILE__)
 
 require 'test/unit'
-require 'parking_lot'
-
+require 'attendant'
+require 'mocha'
 
 class ParkingLotTest < Test::Unit::TestCase
-	def test_add_car
+  def test_add_car
     lot = Lot.new(100)
-    lot.park(Vehicle.new(1))
-		assert_equal 1, lot.filled_spaces
+    vehicle = Vehicle.new
+    assert_equal vehicle, lot.park(vehicle)
   end
 
   def test_remove_parked_car
     lot = Lot.new(100)
 
-    vehicle = Vehicle.new(1)
-    vehicle2 = Vehicle.new(3)
+    vehicle = Vehicle.new
 
     lot.park(vehicle)
-    lot.park(Vehicle.new(2))
+    lot.park(Vehicle.new)
 
-    lot.remove(vehicle2)
+    assert_equal vehicle, lot.remove(vehicle)
 
-    assert_equal 1, lot.filled_spaces
+    assert_raise RuntimeError do
+      assert_not_equal vehicle, lot.remove(vehicle)
+    end
+
   end
 end
 

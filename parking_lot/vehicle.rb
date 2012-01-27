@@ -1,6 +1,6 @@
 class Vehicle
-   attr_reader :id
-  def initialize (id)
-    @id = id
+
+  def initialize ()
+
   end
 end

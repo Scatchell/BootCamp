@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63f96d2e-d6bf-4f58-ab71-d7812c217f2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parking_lot/parking_lot.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parking_lot/parking_lot_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parking_lot/vehicle.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parking_lot/attendant.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parking_lot/attendant_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parking_lot/parking_lot.rb" afterPath="$PROJECT_DIR$/parking_lot/parking_lot.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parking_lot/parking_lot_test.rb" afterPath="$PROJECT_DIR$/parking_lot/parking_lot_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parking_lot/vehicle.rb" afterPath="$PROJECT_DIR$/parking_lot/vehicle.rb" />
     </list>
     <ignored path="BootCamp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,16 +34,34 @@
       <file leaf-file-name="parking_lot.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parking_lot/parking_lot.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="14" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+            <state line="3" column="33" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parking_lot_test.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="parking_lot_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parking_lot/parking_lot_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="237" selection-end="237" vertical-scroll-proportion="0.2740864">
+            <state line="5" column="0" selection-start="0" selection-end="94" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attendant_test.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parking_lot/attendant_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="17" selection-start="585" selection-end="585" vertical-scroll-proportion="0.5810811">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attendant.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parking_lot/attendant.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="4" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -49,25 +70,7 @@
       <file leaf-file-name="vehicle.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parking_lot/vehicle.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quantity.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quantity/quantity.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="28" selection-start="74" selection-end="100" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quantity_test_new.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quantity/quantity_test_new.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="8" selection-start="108" selection-end="476" vertical-scroll-proportion="0.0">
+            <state line="5" column="14" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -87,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/quantity/length_test.rb" />
-        <option value="$PROJECT_DIR$/quantity/unit.rb" />
         <option value="$PROJECT_DIR$/quantity/length.rb" />
         <option value="$PROJECT_DIR$/quantity/volume.rb" />
         <option value="$PROJECT_DIR$/quantity/special_quantity.rb" />
@@ -101,8 +102,10 @@
         <option value="$PROJECT_DIR$/parking_lot/parking_lot" />
         <option value="$PROJECT_DIR$/parking_lot/parking_lot_test" />
         <option value="$PROJECT_DIR$/parking_lot/vehicle.rb" />
-        <option value="$PROJECT_DIR$/parking_lot/parking_lot.rb" />
         <option value="$PROJECT_DIR$/parking_lot/parking_lot_test.rb" />
+        <option value="$PROJECT_DIR$/parking_lot/attendant.rb" />
+        <option value="$PROJECT_DIR$/parking_lot/parking_lot.rb" />
+        <option value="$PROJECT_DIR$/parking_lot/attendant_test.rb" />
       </list>
     </option>
   </component>
@@ -192,36 +195,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda.parking_lot_test">
-    <configuration default="false" name="ChanceTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="BootCamp" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/chance_not_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_CLASS_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="INHERITANCE_CHECK_DISABLED" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Test::Unit/Shoulda.attendant_test">
     <configuration default="false" name="quantity_test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="BootCamp" />
@@ -310,6 +284,35 @@
       </EXTENSION>
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/parking_lot/parking_lot_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_CLASS_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="INHERITANCE_CHECK_DISABLED" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="attendant_test" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="BootCamp" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/parking_lot" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/parking_lot/attendant_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_CLASS_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
@@ -425,11 +428,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda.ChanceTest" />
-      <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda.quantity_test" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.quantity_test_new" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.parking_lot_test" />
-      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda.parking_lot_test" />
+      <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda.quantity_test" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.quantity_test_new" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.parking_lot_test" />
+      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda.parking_lot_test" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda.attendant_test" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -460,17 +463,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-5" width="1296" height="1037" extended-state="6" />
+    <frame x="1272" y="-5" width="1382" height="781" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.03255814" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20095694" sideWeight="0.70255274" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1880597" sideWeight="0.7364341" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2974473" sideWeight="0.9358209" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2635659" sideWeight="0.9358209" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="92" y="95" width="1182" height="581" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -524,11 +527,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chance_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="206" selection-end="206" vertical-scroll-proportion="0.37313432" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chance.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -592,21 +590,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parking_lot/vehicle.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+        <state line="5" column="14" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parking_lot/parking_lot.rb">
+    <entry file="file://$PROJECT_DIR$/parking_lot/attendant.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+        <state line="12" column="4" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parking_lot/parking_lot_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="237" selection-end="237" vertical-scroll-proportion="0.2740864">
+        <state line="5" column="0" selection-start="0" selection-end="94" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parking_lot/parking_lot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parking_lot/attendant_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="17" selection-start="585" selection-end="585" vertical-scroll-proportion="0.5810811">
           <folding />
         </state>
       </provider>
